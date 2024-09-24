@@ -1,0 +1,27 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    /* color: #fff; */
+}
+#page1{
+    /* position: relative; */
+    height: 93vh;
+    width: 100%;
+    background-color: rgba(0, 255, 255, 0.323);/*backgroud color for page1*/
+    /* this is page1  */
+}
+#page1 #nav{
+    height: 7vh;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 2vw;
+    padding-right: 2vw;
+}
